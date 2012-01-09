@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+	<persistence-unit name="HealthInfoSystemForAssignment4" transaction-type="RESOURCE_LOCAL">
+		<class>stevens.cs.cs548.health.Treatment</class>
+		<class>stevens.cs.cs548.health.SurgeryTreatment</class>
+		<class>stevens.cs.cs548.health.Surgeon</class>
+		<class>stevens.cs.cs548.health.RadiologyTreatment</class>
+		<class>stevens.cs.cs548.health.Radiologist</class>
+		<class>stevens.cs.cs548.health.RadDate</class>
+		<class>stevens.cs.cs548.health.Provider</class>
+		<class>stevens.cs.cs548.health.Physician</class>
+		<class>stevens.cs.cs548.health.Patient</class>
+		<class>stevens.cs.cs548.health.DrugTreatment</class>
+		<class>stevens.cs.cs548.health.Clinic</class>
+		<properties>
+			<property name="eclipselink.jdbc.cache-statements" value="false"/>
+			<property name="eclipselink.jdbc.url" value="jdbc:derby://localhost:1527/sample;create=true"/>
+			<property name="eclipselink.jdbc.user" value="user"/>
+			<property name="eclipselink.jdbc.driver" value="org.apache.derby.jdbc.ClientDriver"/>
+			<property name="eclipselink.jdbc.password" value="123"/>
+		</properties>
+	</persistence-unit>
+</persistence>

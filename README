@@ -1,0 +1,7 @@
+assignment4 - Service Oriented Architecture
+
+In this assignemnt, I defined a SOA for the domain-driven design. I defined data transfer objects (DTOs) for my SOA. I defined service facades that provide access to my domain in terms of DTOs transferred to and from clients.I defined a Web service interface for client that want to access my application over the web.
+
+The assignment is consisted of seven projects which are ClinicApp, ClinicDTO, ClinicLookupService, ClinicLookupWeb, ClinicService, ClinicWeb, HealthInfoSystemForAssignment4.
+
+
